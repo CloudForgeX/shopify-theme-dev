@@ -15,7 +15,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products (Live Environment)",
+            "heading": "Browse our latest products <strong>(Live Environment)</strong>",
             "heading_size": "h0"
           }
         },

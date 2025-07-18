@@ -1,1 +1,1 @@
-# shopify-theme-dev
+# Shopify Dawn Theme Development

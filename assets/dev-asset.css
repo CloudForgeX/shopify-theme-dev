@@ -1,12 +1,23 @@
+.dev-promotion-wrapper {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.dev-promotion-title {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
 .dev-promotion-section {
   display: flex;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .dev-promotion-block {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+  text-align: center;
 }

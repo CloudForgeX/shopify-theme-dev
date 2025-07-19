@@ -31,10 +31,7 @@
           }
         }
       },
-      "block_order": [
-        "heading",
-        "button"
-      ],
+      "block_order": ["heading", "button"],
       "settings": {
         "image_overlay_opacity": 40,
         "image_height": "large",
@@ -94,10 +91,7 @@
           }
         }
       },
-      "block_order": [
-        "promotion_6bjQer",
-        "promotion_hCDUQa"
-      ],
+      "block_order": ["promotion_6bjQer", "promotion_hCDUQa"],
       "name": "Dev Promotion",
       "settings": {
         "title": "Summer Seasonal Sale",
@@ -105,9 +99,5 @@
       }
     }
   },
-  "order": [
-    "image_banner",
-    "featured_collection",
-    "dev_promotion_94Cw6c"
-  ]
+  "order": ["image_banner", "featured_collection", "dev_promotion_94Cw6c"]
 }

@@ -78,6 +78,18 @@
     },
     "dev_promotion_94Cw6c": {
       "type": "dev-promotion",
+      "blocks": {
+        "promotion_6bjQer": {
+          "type": "promotion",
+          "settings": {
+            "title": "Seasonal Promotion 1",
+            "image": "shopify://shop_images/snowboard_sky.png"
+          }
+        }
+      },
+      "block_order": [
+        "promotion_6bjQer"
+      ],
       "name": "Dev Promotion",
       "settings": {
         "title": "Winter Seasonal Sale",

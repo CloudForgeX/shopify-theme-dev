@@ -1451,5 +1451,15 @@
         "default": "scheme-1"
       }
     ]
+  },
+  {
+    "name": "Tutorial",
+    "settings": [
+      {
+        "type": "text",
+        "id": "tutorial_text",
+        "label": "Tutorial text"
+      }
+    ]
   }
 ]

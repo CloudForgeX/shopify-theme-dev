@@ -69,7 +69,7 @@
       "name": "Dev Promotion",
       "settings": {
         "title": "Seasonal Promotion",
-        "text_alignment": "left"
+        "text_alignment": "center"
       }
     }
   },

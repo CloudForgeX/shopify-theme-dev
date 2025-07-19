@@ -80,7 +80,8 @@
       "type": "dev-promotion",
       "name": "Dev Promotion",
       "settings": {
-        "title": "Winter Seasonal Sale"
+        "title": "Winter Seasonal Sale",
+        "text_alignment": "center"
       }
     }
   },

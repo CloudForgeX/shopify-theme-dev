@@ -15,9 +15,67 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_banner_aymqh4": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_XkHCam": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_87MmRC": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_KmNLp3": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_XkHCam",
+        "text_87MmRC",
+        "buttons_KmNLp3"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "dev_promotion_rmTcYi": {
+      "type": "dev-promotion",
+      "name": "Dev Promotion",
+      "settings": {
+        "title": "Seasonal Promotion",
+        "text_alignment": "left"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_aymqh4",
+    "dev_promotion_rmTcYi"
   ]
 }

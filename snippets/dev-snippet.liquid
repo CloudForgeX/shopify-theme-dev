@@ -1,0 +1,23 @@
+{% comment %} 
+ Renders message, environment, and hosted information.
+
+ Accepts:
+ - message: {string} - The message to display.
+  - environment: {string} - The environment type (e.g., development, production).
+  - hosted: {string} - The hosting platform (e.g., GitHub, Shopify).
+
+  Example usage:
+  {% render 'dev-snippet', {
+    environment: 'development',
+    message: 'This is coming from a snippet',
+    hosted: 'GitHub'
+  } %}
+{% endcomment %}
+
+<div style="font-family: sans-serif; font-size: 16px;">
+  <p>Message: {{- message -}}.</p>
+  <p>Environment: {{- environment -}}.</p>
+  <p>Hosted: {{- hosted -}}.</p>
+</div>
+
+{% comment %} <img src="{{ 'cream01.jpg' | asset_img_url: '400 * 400'}}" loading="eager" height="400" width="400" alt="Cream Image" style="display: block; margin: 0 auto;"> {% endcomment %}

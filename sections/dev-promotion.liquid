@@ -1,4 +1,5 @@
-
+<h2 class="dev-promotion-title" style="text-align: {{ section.settings.text_alignment }};">{{ section.settings.title }}</h2>
+  
 {% schema %}
   {
     "name": "Dev Promotion",
@@ -14,6 +15,26 @@
         "default": "Seasonal Promotion",
         "info": "Promotion text to display",
         "placeholder": "Title of the promotion"
+      },
+      {
+        "type": "select",
+        "id": "text_alignment",
+        "label": "Text Alignment",
+        "options": [
+          {
+          "value": "left",
+          "label": "Left"
+          },
+          {
+          "value": "center",
+          "label": "Center"
+          },
+          {
+          "value": "right",
+          "label": "Right"
+          }
+        ],
+        "default": "left",
       },
     ],
     "presets": [

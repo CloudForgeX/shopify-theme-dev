@@ -1,0 +1,12 @@
+.dev-promotion-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.dev-promotion-block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

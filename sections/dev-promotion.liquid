@@ -1,4 +1,14 @@
 <h2 class="dev-promotion-title" style="text-align: {{ section.settings.text_alignment }};">{{ section.settings.title }}</h2>
+
+<h2>Seasonal Promotion</h2>
+{% for block in section.blocks %}
+  {% if block.type == 'promotion' %}
+    {{ block.settings.title }}
+  {% endif %}
+  {% if block.settings.image %}
+    <img src="{{ block.settings.image | image_url: '1000 * 1000' }}" loading="lazy" width="500" height="500" alt="{{ block.settings.title }}">
+  {% endif %}
+{% endfor %}
   
 {% schema %}
   {

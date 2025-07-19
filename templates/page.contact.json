@@ -16,19 +16,66 @@
         "padding_bottom": 36
       }
     },
-    "form": {
-      "type": "contact-form",
+    "image_banner_AY9dAg": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_A8z79k": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_dQymai": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_GWGeBq": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_A8z79k",
+        "text_dQymai",
+        "buttons_GWGeBq"
+      ],
+      "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "dev_promotion_9HcezK": {
+      "type": "dev-promotion",
+      "name": "Dev Promotion",
+      "settings": {
+        "title": "Seasonal Promotion",
+        "text_alignment": "left"
       }
     }
   },
   "order": [
     "main",
-    "form"
+    "image_banner_AY9dAg",
+    "dev_promotion_9HcezK"
   ]
 }
